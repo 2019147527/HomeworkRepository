@@ -1,0 +1,38 @@
+
+h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+}
+
+.labels{
+    
+    font-size: 13px;
+    font-family: 'Noto Sans KR' , sans-serif;
+}
+
+.button{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px, groove;
+    border-color: black;
+}
+
+.redirect{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.box_redirect{
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+}
+a.redirect:hover{
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
