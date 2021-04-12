@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Welcome to Woo Shop!</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <style>
+            #anime{
+                position: relative;
+                margin-bottom: 20px;
+                animation-name: moving;
+                animation-timing-function: ease-out;
+                animation-duration: 2s;
+            }
+            @keyframes moving{
+                0% {left: 100%;}
+                100% {left: 0%;}
+            }
+
+            h1{
+                margin-top: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+ 
+        <div class="box">
+            <div id="anime">
+                <strong>Welcome to Woo Shop!</strong>
+            </div>
+            <div class="box_redirect">
+                <a href="index.html" class="redirect"> 메인페이지</a>
+                <a href="login.html" class="redirect"> 로그인</a>
+                <a href="signup.html" class="redirect"> 회원가입</a>
+            </div>
+            <h1>Selling Products</h1>
+
+            <div>
+                <div class="image_box">
+                    <img class="image" src="pizza.jpg" alt="pizza">
+                </div>
+                <div class="image_box">
+                    <img class="image" src="scotcheggs.jpg" alt="scotcheggs">
+                </div>        
+            </div>
+            
+            <h1>음식에 관해</h1>
+            <div id="column_layout">
+                <h2>개요</h2>
+                <p>
+                    위 음식은 각각 피자(Pizza)와 스카치에그(Scotchegg) 입니다. 
+                </p>
+                <h2>피자</h2>
+                <p>
+                    피자는 페페로니 피자와 포테이토 피자로 구성되어 있습니다.
+                    추가적으로 감자튀김과 콘샐러드가 같이 제공됩니다.
+                    정말 맛있습니다. 가격은 20000원 입니다.
+                </p>
+                <h2>스카치에그</h2>
+                <p>
+                    스카치에그는 영국에서 유래한, 반숙 혹은 완숙된 계란을 고기를 둘러서 튀기거나 굽는 요리입니다
+                    한국의 떡갈비와 비슷한 외형을 가지고 있으며, 피크닉이나 안주로 훌륭합니다.
+                    가격은 10000원입니다. 
+                </p>
+                <h2>품질</h2>
+                <p>
+                    피자와 스카치에그의 모든 제품은 국내산 만을 사용합니다.
+                </p>
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>

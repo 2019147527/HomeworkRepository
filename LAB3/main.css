@@ -1,0 +1,72 @@
+
+h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+}
+
+.box{
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.labels{
+    
+    font-size: 13px;
+    font-family: 'Noto Sans KR' , sans-serif;
+}
+
+.button{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px groove;
+    border-color: black;
+}
+
+.redirect{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.box_redirect{
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+}
+a.redirect:hover{
+    border-bottom: 5px solid red;
+}
+
+.image{   
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+.image:hover{
+    display: inline-block;
+    width:300px;
+    height: 300px;
+}      
+.image_box{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin-right: 50px;
+    vertical-align: top;
+}
+#column_layout{
+    margin-top: 10px;
+    column-count: 2;
+    column-gap: 20px;
+    column-width: 60px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+}
