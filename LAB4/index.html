@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Welcome to Woo Shop!</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <style>
+            #anime{
+                position: relative;
+                margin-bottom: 20px;
+                animation-name: moving;
+                animation-timing-function: ease-out;
+                animation-duration: 2s;
+                
+            }
+            strong{
+                font-size: 30px;
+            }   
+            @keyframes moving{
+                0% {left: 100%;}
+                100% {left: 0%;}
+            }
+
+            h1{
+                margin-top: 10px;
+                text-align: center;
+            }
+            #aside_bar{
+                display: inline-block;
+                width: 200px;
+                height: 180px;
+                position: fixed;
+                margin-top: 20px;
+                border: 2px solid black;
+            }
+            .bar{
+                display: block;
+                padding: 10px; 
+            }
+            label, select{
+                display: block;
+            }
+            section{
+                display: inline-block;
+                width: 45%;
+                height: 250px;
+                position: relative;
+                margin: 10px;
+
+            }
+            select, input{
+                width: 90%;
+                margin-right: 10px;
+            }
+            #main_bar{
+                display: block;
+                margin-left: 210px;
+                margin-right: auto;
+            }
+            img{
+                width: 320px;
+                height: 250px;
+            }
+            section>h2{
+                position: relative;
+            }
+        </style>
+    </head>
+
+    <body>
+ 
+        <div class="box">
+            <div id="anime">
+                <strong>Welcome to Woo Shop!</strong>
+            </div>
+            <div class="box_redirect">
+                <a href="index.html" class="redirect"> 메인페이지</a>
+                <a href="login.html" class="redirect"> 로그인</a>
+                <a href="signup.html" class="redirect"> 회원가입</a>
+            </div>
+            
+            <div id="aside_bar">
+                <aside>
+                    <form>
+                        <div class="bar">
+                            <label for="category">카테고리 선택</label>
+                                <select id="category">
+                                    <option selected>All</option>
+                                    <option>Breakfast</option>
+                                    <option>Lunch</option>
+                                    <option>Dinner</option>
+                                </select>
+
+                        </div>
+                        <div class="bar">
+                            <label for="search">검색</label>
+                            <input type="text" id="search" placeholder="pizza">
+                        </div>
+
+                        <div class="bar">
+                            <button>Filter results</button>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+
+            <div id="main_bar">
+                <main>
+                </main>
+                
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>

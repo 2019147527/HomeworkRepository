@@ -1,0 +1,122 @@
+[
+    {
+        "name" : "Korean Set",
+        "price" : "7000원",
+        "image" : "baikban.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Bibimbap",
+        "price" : "8000원",
+        "image" : "bibimbap.jpg",
+        "type" : "lunch"
+    },
+    {
+        "name" : "Pizza",
+        "price" : "12000원",
+        "image" : "pizza.jpg",
+        "type" : "dinner"
+    },
+    {
+        "name" : "boiled pork",
+        "price" : "10000원",
+        "image" : "bossam.jpg",
+        "type" : "lunch"
+    },
+    {
+        "name" : "Bread",
+        "price" : "4000원",
+        "image" : "bread.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Chicken",
+        "price" : "13000원",
+        "image" : "chicken.jpg",
+        "type" : "dinner"
+    },
+    {
+        "name" : "Dwenjang Soup",
+        "price" : "8000원",
+        "image" : "dwenjangsoup.jpg",
+        "type" : "lunch"
+    },
+    {
+        "name" : "English Breakfast",
+        "price" : "5000원",
+        "image" : "englishbreakfast.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Hamburger",
+        "price" : "8000원",
+        "image" : "hamburger.jpg",
+        "type" : "dinner"
+    },
+    {
+        "name" : "JJamppong",
+        "price" : "7000원",
+        "image" : "jambong.jpg",
+        "type" : "lunch"
+    },
+    {
+        "name" : "JJajang Noodle",
+        "price" : "6500원",
+        "image" : "jjajang.jpg",
+        "type" : "lunch"
+    },
+    {
+        "name" : "Jokbal",
+        "price" : "11000원",
+        "image" : "jokbal.jpg",
+        "type" : "dinner"
+    },
+    {
+        "name" : "Kimchi Soup",
+        "price" : "8000원",
+        "image" : "kimchisoup.jpg",
+        "type" : "lunch"
+    },
+    {
+        "name" : "Scotcheggs",
+        "price" : "5500원",
+        "image" : "scotcheggs.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Omelet",
+        "price" : "5000원",
+        "image" : "omelet.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Pancake",
+        "price" : "4500원",
+        "image" : "pancake.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Porridge",
+        "price" : "4000원",
+        "image" : "porridge.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Waffle",
+        "price" : "4500원",
+        "image" : "waffle.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Yogurt",
+        "price" : "3000원",
+        "image" : "yogurt.jpg",
+        "type" : "breakfast"
+    },
+    {
+        "name" : "Cereal",
+        "price" : "2000원",
+        "image" : "cereal.jpg",
+        "type" : "breakfast"
+    }
+  ]
